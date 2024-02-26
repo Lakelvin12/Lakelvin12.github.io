@@ -48,3 +48,45 @@ footer p.copyright {
     text-align: center;
     font-size: 80%;
 }
+
+html {
+    background-image: linear-gradient(to bottom, white 0%, #facd8a 100%);
+}
+
+body {
+    width: 1000px;
+    background-color: white;
+    margin: 15px auto;
+    padding: 15px 1.5em;
+    border: 1px solid black;
+    border-radius: 25px;
+    box-shadow: 5px 5px 0 0;
+}
+
+h3 {
+    margin: 3em 2em 1.5em;
+    border: 5px double blue;
+    border-radius: 20px;
+    box-shadow: 3px 3px 4px 4px red;
+    padding: 1em;
+}
+
+main nav {
+    margin: 1.5em 2em 1.5em;
+    border: 5px dashed blue;
+    border-radius: 20px;
+    box-shadow: 3px 3px 4px 4px red;
+    padding: 0.5em;
+}
+
+.contact {
+    margin: 1.5em 2em 0 2em;
+    border: 5px dotted blue;
+    border-radius: 20px;
+    box-shadow: 3px 3px 4px 4px red;
+    padding: 1em;
+}
+
+header img {
+    margin-left: 2em;
+}
