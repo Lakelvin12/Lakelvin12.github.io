@@ -11,18 +11,6 @@ a:hover {
     color: orangered;
 }
 
-header h1 {
-    font-size: 175%;
-    color: maroon;
-    text-indent: 30px;
-}
-
-header h2 {
-    font-size: 130%;
-    color: #800000;
-    text-indent: 30px;
-}
-
 header img {
     float: left;
 }
@@ -33,11 +21,6 @@ header img {
 
 main {
     clear: left;
-}
-
-main h3 {
-    margin-top: 3em;
-    font-size: 105%;
 }
 
 #list {
@@ -63,30 +46,32 @@ body {
     box-shadow: 5px 5px 0 0;
 }
 
-h3 {
-    margin: 3em 2em 1.5em;
-    border: 5px double blue;
+h3, main nav, .contact {
+    margin: 1.5em 2em;
     border-radius: 20px;
     box-shadow: 3px 3px 4px 4px red;
     padding: 1em;
 }
 
+h3 {
+    margin-top: 3em;
+    border: 5px double blue;
+}
+
 main nav {
-    margin: 1.5em 2em 1.5em;
     border: 5px dashed blue;
-    border-radius: 20px;
-    box-shadow: 3px 3px 4px 4px red;
     padding: 0.5em;
 }
 
 .contact {
-    margin: 1.5em 2em 0 2em;
     border: 5px dotted blue;
-    border-radius: 20px;
-    box-shadow: 3px 3px 4px 4px red;
-    padding: 1em;
+    margin-bottom: 0;
 }
 
 header img {
     margin-left: 2em;
 }
+
+
+
+
