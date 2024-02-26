@@ -46,14 +46,14 @@ body {
     box-shadow: 5px 5px 0 0;
 }
 
-h3, main nav, .contact {
+h2, main nav, .contact {
     margin: 1.5em 2em;
     border-radius: 20px;
     box-shadow: 3px 3px 4px 4px red;
     padding: 1em;
 }
 
-h3 {
+h2 {
     margin-top: 3em;
     border: 5px double blue;
 }
